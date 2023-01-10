@@ -17,21 +17,21 @@ g++ Main.cpp arth.h arth.cpp bitstream.h bitstream.cpp huffman.h huffman.c -o Ma
 ./Main.out -e Test1.txt output_arth.txt output_huff.txt
 ```
 
-**# Result for Test1**
+# Result for Test1
 start Arithmetic encoding...
 start Huffman encoding...
 time cost of arithmetic coding: 0.000582 ms
 time cost of huffman coding: 0.000269 ms
-```
-**# Result for Test2**
+```sh
+# Result for Test2
 start Arithmetic encoding...
 start Huffman encoding...
 time cost of arithmetic coding: 0.000980 ms
 time cost of huffman coding: 0.000441 ms
-```
-**# Result for Test3**
+```sh
+# Result for Test3
 start Arithmetic encoding...
 start Huffman encoding...
 time cost of arithmetic coding: 0.006653 ms
 time cost of huffman coding: 0.000197 ms
-```
+```sh
