@@ -16,7 +16,8 @@ g++ Main.cpp arth.h arth.cpp bitstream.h bitstream.cpp huffman.h huffman.c -o Ma
 # Run for encoding
 ./Main.out -e Test1.txt output_arth.txt output_huff.txt
 ```
-
+##Result
+```sh
 # Result for Test1
 start Arithmetic encoding...
 start Huffman encoding...
